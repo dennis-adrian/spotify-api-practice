@@ -4,7 +4,7 @@ import Cards from '../components/Cards'
 const urlApi = 'https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2/albums'
 const fetchAlbums = async () => {
   const response = await fetch(urlApi, {
-    headers: { authorization: 'Bearer BQBCfRnpWLMVubEUiO4X11A95ZlrRpyw-JApKcYHgS4gZbG4YEwec7Maxy4T6IOiU_ieB_ykSbEbWyh9VzOsu9tCXX2DjKZA5V5LdUF7r0xA1iya1ME' }
+    headers: { authorization: 'Bearer BQDvo7H_7XD2KzhMCOHlH7scfqW7g85_ySFAQvDJwAMIjmEEa73OzWZUsoxhKROgnaLl6w6JgWjMzmwiKkxma300nNUtks6vUXEOHkvCQJmtjcHoORI' }
   })
   return await response.json()
 }

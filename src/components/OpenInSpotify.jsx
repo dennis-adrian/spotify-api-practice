@@ -1,10 +1,11 @@
+import { useContext } from 'react'
+import { DarkModeContext } from '../contexts'
 import spotifyBlack from '../../assets/spotify_icon_black.png'
 import spotifyWhite from '../../assets/spotify_icon_white.png'
-import { useIsDarkMode } from '../hooks/useIsDarkMode'
 import './OpenInSpotify.css'
 
 const OpenInSpotify = ({ href }) => {
-  const isDarkMode = useIsDarkMode()
+  const isDarkMode = useContext(DarkModeContext)
   const imgSrc = isDarkMode ? spotifyWhite : spotifyBlack
 
   return (
