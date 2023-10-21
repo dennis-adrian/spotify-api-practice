@@ -1,3 +1,10 @@
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
+}
+
+.card > img {
+  height: 300px;
+  min-height: 300px;
 }
