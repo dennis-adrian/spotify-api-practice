@@ -1,6 +1,6 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 996px;
+  max-width: 1092px;
   /* justify-content: space-evenly; */
 }

@@ -1,0 +1,35 @@
+.logo {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.button {
+  align-items: center;
+  align-self: center;
+  border-radius: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  width: 9rem;
+}
+
+.button:hover {
+  background-color: var(--spotify-green);
+}
+
+.button > a {
+  color: var(--white-text);
+  text-decoration: none;
+}
+
+
+@media (prefers-color-scheme: light) {
+  .button > a {
+    color: var(--dark-text)
+  }
+
+  .button > a:hover {
+    color: var(--dark-text)
+  }
+}
